@@ -4,8 +4,6 @@ A simple, self-hosted analytics dashboard for [Cloudflare Web Analytics](https:/
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/fayazara/cf-webanalytics)
 
-[GitHub](https://github.com/fayazara/cf-webanalytics)
-
 Built with TanStack Start, React, and shadcn/ui.
 
 ## What it does
