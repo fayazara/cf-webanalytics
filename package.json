@@ -5,6 +5,15 @@
   "imports": {
     "#/*": "./src/*"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "msw",
+      "sharp",
+      "unrs-resolver",
+      "workerd"
+    ]
+  },
   "scripts": {
     "dev": "vite dev --port 3000",
     "build": "vite build",
