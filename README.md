@@ -2,6 +2,10 @@
 
 A simple, self-hosted analytics dashboard for [Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/). Runs on Cloudflare Workers.
 
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/fayazara/cf-webanalytics)
+
+[GitHub](https://github.com/fayazara/cf-webanalytics)
+
 Built with TanStack Start, React, and shadcn/ui.
 
 ## What it does
@@ -55,7 +59,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ### 4. Deploy
 
-Set all environment variables as secrets:
+Set all environment variables as secrets or just add them on the dashboard when deploying from the Cloudflare dashboard:
 
 ```bash
 npx wrangler secret put CF_API_TOKEN
