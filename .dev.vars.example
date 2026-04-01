@@ -1,0 +1,4 @@
+CF_API_TOKEN=your_cloudflare_api_token
+CF_ACCOUNT_ID=your_cloudflare_account_id
+CF_SITE_TAG=your_web_analytics_site_tag
+SITE_NAME=example.com
