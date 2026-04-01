@@ -59,18 +59,15 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ### 4. Deploy
 
-Set all environment variables as secrets or just add them on the dashboard when deploying from the Cloudflare dashboard:
+**One-click:** Use the Deploy to Cloudflare button above. It will prompt you for all required values during setup.
+
+**Manual:**
 
 ```bash
 npx wrangler secret put CF_API_TOKEN
 npx wrangler secret put CF_ACCOUNT_ID
 npx wrangler secret put CF_SITE_TAG
 npx wrangler secret put SITE_NAME
-```
-
-Then deploy:
-
-```bash
 pnpm deploy
 ```
 

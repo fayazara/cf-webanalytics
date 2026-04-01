@@ -1,4 +1,4 @@
-CF_API_TOKEN=your_cloudflare_api_token
-CF_ACCOUNT_ID=your_cloudflare_account_id
-CF_SITE_TAG=your_web_analytics_site_tag
-SITE_NAME=example.com
+CF_API_TOKEN=your_cloudflare_api_token # Cloudflare API token with Account Analytics: Read permission
+CF_ACCOUNT_ID=your_cloudflare_account_id # Found in your Cloudflare dashboard URL
+CF_SITE_TAG=your_web_analytics_site_tag # Found in Web Analytics site URL: siteTag~in=<THIS>
+SITE_NAME=example.com # Display name for the dashboard header
